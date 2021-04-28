@@ -1,0 +1,17 @@
+For the App server:
+	1- open ServerApp Directory
+	2- open cmd in this Directory
+	3- run the following command (java -jar ServerApp-1.0-SNAPSHOT-jar-with-dependencies.jar)
+
+For the client:
+	1- open ClientApplication Directory
+	2- open cmd in this Directory
+	3- run the following command (java -jar ClientApplication-1.0-SNAPSHOT-jar-with-dependencies.jar)
+
+
+
+Notes:
+	-saved conversation files and stats under the users directory in the ServerApp
+	-saved chat conversation will .txt under the name of the user
+	-saved stats for current conversation in [userName]freqLast.json
+	-saved stats for all conversations in [userName]freqAll.json
